@@ -1,0 +1,107 @@
+
+body{
+    font: 10pt 'Pixelify Sans';
+   
+}
+
+h1{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.pe{
+    text-align: center;
+    font-size: large;
+    
+}
+
+section{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.charmander{
+    height: 70px;
+    margin-left: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.charmander:hover{
+    transform: scale(1.1);
+}
+
+.squirtle{
+    height: 70px;
+    margin-top: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.squirtle:hover{
+    transform: scale(1.1);
+}
+
+.bulbasauro{
+    height: 70px;
+    transition: transform 0.2s ease-in-out
+}
+
+.bulbasauro:hover{
+    transform: scale(1.1);
+}
+
+.invisivel1{
+    position: absolute;
+    left: 595px;
+    top: 276px;
+    padding-top: 31px;
+    padding-left: 37px;
+    background: none;
+    border: none;
+   
+}
+
+.invisivel2{
+    position: absolute;
+    left: 597px;
+    top: 172px;
+    padding-top: 30px;
+    padding-left: 33px;
+    background: none;
+    border: none;
+}
+
+.invisivel3{
+    position: absolute;
+    left: 592px;
+    top: 380px;
+    padding-top: 30px;
+    padding-left: 40px;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mestre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+}
+
+input#botaobatalha {
+    font: normal 15pt 'Pixelify Sans';
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: -200px;
+}
+
+
+

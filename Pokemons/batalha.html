@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="batalha.css">
+    
+</head>
+<body>
+    <section>
+    <h1>Seu Pokémon</h1>
+    <div id="seupoke">
+        <p>???</p>
+        <img src="" alt="Seu pokémon">
+        <div class="hp-bar">
+            <div class="hp" style="width: 100%;">??/??</div> 
+        </div>
+    </div>
+    <input type="button" value="Atacar" id="botaoataque" onclick="atacar()">
+    <input type="button" value="Defender" id="botaodefesa" onclick="defender()">
+ 
+    <h2>Pokémon Inimigo</h2>
+    <div id="pokeinimigo">
+        <p>Pidgey</p>
+        <img src="Pidgey-Pokemon-PNG-Transparent.png" id="pidgey" alt="Pidgey">
+        <div class="hp-bar2">
+            <div class="hp2" style="width: 100%;">40/40</div> 
+        </div>
+    </div>
+    </section>
+    <script src="pokemons.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body{
+    font: 13pt Pixelify Sans;
+    
+}
+
+.hp-bar {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    margin-left: 10px;
+    width: 90%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: right;
+    outline: auto;
+    outline-color: #4caf50;
+    margin-top: 15px;
+    
+    
+}
+
+.hp {
+    height: 100%;
+    background-color: #4caf50;
+    width: 100%;
+    padding-right: 5px;
+    
+}
+
+.hp-bar2 {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    margin-left: 10px;
+    width: 90%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: right;
+    outline: auto;
+    outline-color: #4caf50;
+    margin-top: 15px;
+    
+    
+}
+
+.hp2 {
+    height: 100%;
+    background-color: #4caf50;
+    width: 100%;
+    padding-right: 5px;
+    
+}
+
+div#seupoke{
+    height: 210px;
+    width: 225px;
+    background-color: rgba(219, 219, 224, 0.728);
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+div#pokeinimigo{
+    height: 210px;
+    width: 225px;
+    background-color: rgba(219, 219, 224, 0.728);
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img#pidgey{
+    height: 100px;
+}
+
+input#botaoataque{
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    font: 11pt 'Pixelify Sans';
+}
+
+input#botaodefesa{
+    position: absolute;
+    top: 180px;
+    left: 340px;
+    font: 11pt 'Pixelify Sans';
+}
